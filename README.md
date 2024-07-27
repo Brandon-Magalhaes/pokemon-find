@@ -1,30 +1,63 @@
-# React + TypeScript + Vite
+# Pokémon List
+Este é um projeto em React que permite buscar e listar Pokémons, com persistência de dados usando o LocalStorage. O usuário pode digitar o nome de um Pokémon, e se ele for encontrado, será adicionado a uma lista de Pokémons encontrados. A lista é persistida no LocalStorage para que, mesmo após a página ser atualizada, os dados permaneçam. O projeto também inclui um botão para resetar a lista e o LocalStorage.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Funcionalidades
+Listagem dos primeiros 151 Pokémons utilizando a PokeAPI.
+Pesquisa por nome de Pokémon.
+Adição de Pokémons encontrados à lista de Pokémons encontrados.
+Persistência de dados no LocalStorage.
+Botão para resetar a lista de Pokémons encontrados.
+Modal de confirmação para resetar a lista.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
+React
+TypeScript
+Tailwind CSS
+axios
+PokeAPI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalação
+Clone o repositório:
+```git clone https://github.com/seu-usuario/pokemon-list.git```
+1 Navegue até o diretório do projeto:
+```cd pokemon-list```
+2 Instale as dependências:
+```npm install```
+3 Inicie o projeto:
+```npm start```
 
-## Expanding the ESLint configuration
+## Estrutura do Projeto
+src/components/Modal.tsx: Componente de modal para confirmação de reset.
+src/hooks/useLocalStorage.ts: Hook personalizado para uso do LocalStorage.
+src/components/PokemonList.tsx: Componente principal que lista os Pokémons.
+src/index.tsx: Arquivo de entrada do React.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Como Usar
+Digite o nome de um Pokémon no campo de entrada.
+Clique no botão "Enviar" para adicionar o Pokémon à lista de encontrados.
+Para resetar a lista, clique no botão com o ícone de reset (⟳). Um modal aparecerá para confirmar a ação.
+Clique em "Confirmar" para resetar a lista e limpar o LocalStorage ou "Cancelar" para fechar o modal sem fazer nenhuma alteração.
 
-- Configure the top-level `parserOptions` property like this:
+## Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Fork o projeto
+Crie uma nova branch (git checkout -b feature/nova-funcionalidade)
+Commit suas mudanças (git commit -m 'Adiciona nova funcionalidade')
+Push para a branch (git push origin feature/nova-funcionalidade)
+Abra um Pull Request
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Licença
+Este projeto está licenciado sob a licença MIT.
+
+Se você tiver alguma dúvida ou problema, por favor, abra uma issue no repositório.
+
+## Contato
+Brandon Magalhães
+Email: brandonmagalhaes.developer@hotmail.com
+
+## Referências
+PokeAPI
+React
+TypeScript
+Tailwind CSS
