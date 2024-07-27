@@ -22,12 +22,18 @@ Clone o repositório:
 git clone https://github.com/seu-usuario/pokemon-list.git
 
 ```
-1 Navegue até o diretório do projeto:
-```cd pokemon-list```
-2 Instale as dependências:
-```npm install```
-3 Inicie o projeto:
-```npm start```
+1. Navegue até o diretório do projeto:
+``` bash
+cd pokemon-list
+```
+2. Instale as dependências:
+``` bash
+npm install
+```
+4. Inicie o projeto:
+```bash
+npm start
+```
 
 ## Estrutura do Projeto
 src/components/Modal.tsx: Componente de modal para confirmação de reset.
