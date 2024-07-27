@@ -18,7 +18,6 @@ PokeAPI
 
 ## Instalação
 Clone o repositório:
-bash
 ```git clone https://github.com/seu-usuario/pokemon-list.git```
 1 Navegue até o diretório do projeto:
 ```cd pokemon-list```
