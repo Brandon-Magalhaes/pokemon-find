@@ -30,13 +30,13 @@ cd pokemon-list
 ``` bash
 npm install
 ```
-4. Inicie o projeto:
+3. Inicie o projeto:
 ```bash
 npm start
 ```
 
 ## Estrutura do Projeto
-src/components/Modal.tsx: Componente de modal para confirmação de reset.
+```bashsrc/components/Modal.tsx:``` Componente de modal para confirmação de reset.
 src/hooks/useLocalStorage.ts: Hook personalizado para uso do LocalStorage.
 src/components/PokemonList.tsx: Componente principal que lista os Pokémons.
 src/index.tsx: Arquivo de entrada do React.
