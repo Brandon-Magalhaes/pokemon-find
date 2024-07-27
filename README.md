@@ -36,10 +36,10 @@ npm start
 ```
 
 ## Estrutura do Projeto
-```src/components/Modal.tsx:``` Componente de modal para confirmação de reset.
-```src/hooks/useLocalStorage.ts:``` Hook personalizado para uso do LocalStorage.
-```src/components/PokemonList.tsx:``` Componente principal que lista os Pokémons.
-```src/index.tsx:``` Arquivo de entrada do React.
+```src/components/Modal.tsx:``` Componente de modal para confirmação de reset.  
+```src/hooks/useLocalStorage.ts:``` Hook personalizado para uso do LocalStorage.  
+```src/components/PokemonList.tsx:``` Componente principal que lista os Pokémons.  
+```src/index.tsx:``` Arquivo de entrada do React.  
 
 ## Como Usar
 Digite o nome de um Pokémon no campo de entrada.
