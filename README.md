@@ -68,7 +68,7 @@ Email:
 brandonmagalhaes.developer@hotmail.com
 ```  
 ## Referências
-PokeAPI
-React
-TypeScript
-Tailwind CSS
+PokeAPI  
+React  
+TypeScript  
+Tailwind CSS  
