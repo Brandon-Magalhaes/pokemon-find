@@ -65,10 +65,11 @@ Se você tiver alguma dúvida ou problema, por favor, abra uma issue no reposit�
 Brandon Magalhães
 Email: ``` bash
 brandonmagalhaes.developer@hotmail.com
-```
-
+```  
 ## Referências
+``` bash
 PokeAPI
 React
 TypeScript
 Tailwind CSS
+```
